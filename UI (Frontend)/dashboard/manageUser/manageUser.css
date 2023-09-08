@@ -1,0 +1,24 @@
+body {
+    background-color: #ffffff;
+    opacity: 1;
+    background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 20px 20px, linear-gradient(olive 1.6px, transparent 1.6px) 0 -0.8px, linear-gradient(90deg, olive 1.6px, #ffffff 1.6px) -0.8px 0;
+    background-size: 40px 40px, 40px 40px, 20px 20px, 20px 20px;
+}
+
+#addUser {
+    width: 200px;
+    margin: 5px;
+    text-align: center;
+    height: 40px;
+    background-color: peachpuff;
+}
+
+#back{
+    margin-left: 94%;
+}
+
+#container {
+    display: flex;        
+    justify-content: center;
+    align-items: center; 
+}
